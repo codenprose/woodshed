@@ -1,8 +1,7 @@
 /**
  * numOfUniqueEmails
- *
  * @param {Array} emails
- * @returns {Array} uniqueEmails
+ * @returns {Array}
  */
 function numOfUniqueEmails(emails) {
   // create a uniqueEmails set
