@@ -6,8 +6,7 @@
  */
 function rotateArray(nums, k) {
   while (k > 0) {
-    const [val] = nums.splice(nums.length-1, 1);
-    nums.unshift(val)
+    nums.unshift(nums.pop());
     k--;
   }
   return nums
